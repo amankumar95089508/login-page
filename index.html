@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Dashboard Menu</title>
+    <link rel="icon" type="image/x-icon" href="logo.jpg">
+  <link rel="stylesheet" a href="style.css">
+  <script src="dashboard.js"></script>
+
+</head>
+<body>
+       <!-- Top Header -->
+    <div class="header">
+        <a href="#default" class="logo">College</a>
+        <div class="header-right">
+            <a class="active" href="#Home">Home</a>
+            <a href="#contact">Contact</a>
+            <a href="#About">About</a>
+            <a href="#Service">Service</a>
+            <a href="#profile">Login</a>
+        </div>
+    </div>
+
+    <!-- Nav Header -->
+    <header>
+        <button class="menu-btn" onclick="toggleSidebar()">☰</button>
+        <h3>Welcome to CAMPUS360</h3>
+        <div>👤</div>
+    </header>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <img src="logo.jpg" alt="Logo">
+        <a href="#" class="menu-item">➡ Dashboard</a>
+        <a href="#" class="menu-item">➡ Attendance</a>
+        <a href="#" class="menu-item">➡ Assignments</a>
+        <a href="#" class="menu-item">➡ Results</a>
+        <a href="#" class="menu-item">➡ Fee Payment</a>
+        <a href="#" class="menu-item">➡ Library</a>
+        <a href="#" class="menu-item">➡ Notice Board</a>
+        <a href="#" class="menu-item">➡ Profile Settings</a>
+        <a href="#" class="menu-item">➡ Help</a>
+        <a href="#" class="menu-item">➡ Complaint</a>
+        <a href="#" class="menu-item">➡ Logout</a>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="form-login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                </div>
+                <button type="submit" class="btn">LOGIN</button>
+                <div class="logreg">
+                    <p>Don't have an account? <a href="#">Sign up</a></p>
+                </div>
+            </form>
+        </div>
+    </div>  
+</body>
+<footer style="background-color: #ffffff; color: #fff; padding: 20px 30px;">
+    <div style="display: flex; justify-content: space-between; flex-wrap margin: 50px;">
+        <div>
+            <h3>Company Name</h3>
+            <p>&copy;2025 all right reserved</p>
+         </div>
+<div>
+   <h4>QUICK LINKS</h4>
+    <ul style="list-style: none; padding: 0;"></ul>
+
+   <li><a href="#" style="color: rgb(0, 0, 0); text-decoration: none;">Home</li></a>
+   <li><a href="#" style="color: rgb(0, 0, 0); text-decoration: none;">About</li></a>
+   <li><a href="#" style="color: rgb(0, 0, 0); text-decoration: none;">Service</li></a>
+   <li><a href="#" style="color: rgb(0, 0, 0); text-decoration: none;">contact</li></a>
+   </ul>
+   </div>
+
+   <div>
+   <h4>FOLLOW US</h4>
+   <ul style="list-style: none; padding: 0;"></ul>
+   <li><a href="#" style="margin-right: 10px; color: #000000;">Instagram</a></li>
+   <li><a href="#" style="margin-right: 10px; color: rgb(0, 0, 0);">Twitter</a></li>
+   <li><a href="#" style="color: rgb(0, 0, 0);">LinkedIn</a></li>
+      </div>
+
+      <div>
+        <h4>CONSUMER POLICY</h4>
+          <li style="list-style: none; padding: 20;"></li>
+        <li><a href="#"  style="margin-right: 10px; color: rgb(0, 0, 0);">cancellation & return</a></li>
+        <li><a href="#"  style="margin-right: 10px; color: black;">term of use </a></li>
+        <li><a href="#"  style="margin-right: 10px; color: black;">security</a></li>
+        <li><a href="#"  style="margin-right: 10px; color: black;">privacy</a></li>
+        <li><a href="#"  style="margin-right: 10px; color: black;">site map</a></li>
+        <li><a href="#"  style="margin-right: 10px; color: black;">cancellation & return</a></li>
+    </style>
+      </div>
+      </div>
+      <div>
+        <h4><hr>Marketing skills</h4>
+        <ul style="list-style: none; padding: 0;"></ul>
+        <li><a href="#" style="Margin-right: 50px; color:rgb(0, 0, 0);"></a></li>
+      </div>
+      
+      <div class="footer-content"> 
+        <p>&copy; <span style="color: red;">KHALSA UNIVERSITY </span>All right reserved </p>
+            
+      </div>
+
+  
+
+</footer>
+</html>
